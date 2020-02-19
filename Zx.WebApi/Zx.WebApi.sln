@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zx.WebApi", "Zx.WebApi\Zx.WebApi.csproj", "{E2EC4F7B-B4E3-44B0-91D3-25E285B7DE19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_External", "_External", "{1FB9E7D5-34D6-49B3-85A2-C14386A910AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoConnector", "_External\MongoConnector\MongoConnector.csproj", "{97C540C1-8049-493A-91DD-73527319D53B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zx.Core", "Zx.Core\Zx.Core.csproj", "{E2374DA9-A659-43A2-A925-4EFF44666385}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2EC4F7B-B4E3-44B0-91D3-25E285B7DE19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2EC4F7B-B4E3-44B0-91D3-25E285B7DE19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2EC4F7B-B4E3-44B0-91D3-25E285B7DE19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2EC4F7B-B4E3-44B0-91D3-25E285B7DE19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C540C1-8049-493A-91DD-73527319D53B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C540C1-8049-493A-91DD-73527319D53B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C540C1-8049-493A-91DD-73527319D53B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C540C1-8049-493A-91DD-73527319D53B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2374DA9-A659-43A2-A925-4EFF44666385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2374DA9-A659-43A2-A925-4EFF44666385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2374DA9-A659-43A2-A925-4EFF44666385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2374DA9-A659-43A2-A925-4EFF44666385}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{97C540C1-8049-493A-91DD-73527319D53B} = {1FB9E7D5-34D6-49B3-85A2-C14386A910AE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36B2388A-E560-4C45-B669-D10441733180}
+	EndGlobalSection
+EndGlobal
